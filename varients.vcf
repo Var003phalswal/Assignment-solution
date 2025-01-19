@@ -1,0 +1,127 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##bcftoolsVersion=1.19+htslib-1.19
+##bcftoolsCommand=mpileup -f ref.fasta outputumor.bam
+##reference=file://ref.fasta
+##contig=<ID=KRAS_chr12:25245311-25245380,length=28>
+##contig=<ID=TP53_chr17:7674188-7674257,length=26>
+##contig=<ID=TP53_chr17:7673761-7673830,length=26>
+##contig=<ID=TP53_chr17:7675074-7675143,length=26>
+##contig=<ID=TP53_chr17:7674885-7674954,length=26>
+##contig=<ID=KRAS_chr12:25227317-25227382,length=28>
+##contig=<ID=CDKN2A_chr9:21971096-21971165,length=29>
+##contig=<ID=TP53_chr17:7675194-7675253,length=26>
+##contig=<ID=SMAD4_chr18:51065494-51065563,length=29>
+##contig=<ID=CDKN2A_chr9:21974752-21974820,length=29>
+##contig=<ID=GNAS_chr20:58909348-58909414,length=28>
+##contig=<ID=TP53_chr17:7675992-7676061,length=26>
+##contig=<ID=TP53_chr17:7670648-7670717,length=26>
+##contig=<ID=SMAD4_chr18:51048770-51048839,length=29>
+##contig=<ID=CDKN2A_chr9:21974629-21974698,length=29>
+##contig=<ID=SMAD4_chr18:51078351-51078420,length=29>
+##contig=<ID=SMAD4_chr18:51076636-51076704,length=29>
+##contig=<ID=CDKN2A_chr9:21970972-21971041,length=29>
+##contig=<ID=PIK3CA_chr3:179218282-179218351,length=31>
+##contig=<ID=U2AF1_chr21:43104309-43104376,length=29>
+##contig=<ID=SMAD4_chr18:51067027-51067096,length=29>
+##contig=<ID=TP53_chr17:7673532-7673601,length=26>
+##contig=<ID=TP53_chr17:7676152-7676221,length=26>
+##contig=<ID=SMAD4_chr18:51058143-51058212,length=29>
+##contig=<ID=EIF1AX_chrX:20138575-20138640,length=29>
+##contig=<ID=SMAD4_chr18:51054849-51054918,length=29>
+##contig=<ID=CTNNB1_chr3:41224577-41224646,length=29>
+##contig=<ID=SMAD4_chr18:51047135-51047203,length=29>
+##contig=<ID=SF3B1_chr2:197402070-197402138,length=30>
+##contig=<ID=BRAF_chr7:140753327-140753396,length=29>
+##contig=<ID=RNF43_chr17:58357761-58357828,length=29>
+##contig=<ID=ARID1A_chr1:26773648-26773717,length=29>
+##contig=<ID=RNF43_chr17:58363531-58363600,length=29>
+##contig=<ID=PIK3CA_chr3:179234260-179234329,length=31>
+##contig=<ID=RNF43_chr17:58370929-58370991,length=29>
+##contig=<ID=TGFBR2_chr3:30691438-30691505,length=29>
+##contig=<ID=ARID1A_chr1:26779389-26779456,length=29>
+##contig=<ID=BRAF_chr7:140777992-140778061,length=29>
+##contig=<ID=ARID1B_chr6:156778847-156778915,length=31>
+##contig=<ID=NRAS_chr1:114713870-114713938,length=29>
+##contig=<ID=SMARCA4_chr19:11021809-11021876,length=31>
+##contig=<ID=MED12_chrX:71141264-71141333,length=28>
+##contig=<ID=RNF43_chr17:58358756-58358825,length=29>
+##contig=<ID=RNF43_chr17:58360798-58360866,length=29>
+##contig=<ID=MAP3K1_chr5:56882006-56882074,length=29>
+##contig=<ID=MEN1_chr11:64809840-64809903,length=28>
+##contig=<ID=MEN1_chr11:64809965-64810034,length=28>
+##contig=<ID=EGFR_chr7:55174749-55174818,length=27>
+##contig=<ID=EGFR_chr7:55191821-55191883,length=27>
+##contig=<ID=APC_chr5:112839461-112839530,length=28>
+##contig=<ID=APC_chr5:112839920-112839989,length=28>
+##contig=<ID=APC_chr5:112839660-112839729,length=28>
+##contig=<ID=EGFR_chr7:55181309-55181378,length=27>
+##contig=<ID=PIK3CA_chr3:179199088-179199157,length=31>
+##contig=<ID=APC_chr5:112840048-112840117,length=28>
+##contig=<ID=APC_chr5:112839782-112839851,length=28>
+##contig=<ID=AKT1_chr14:104780179-104780244,length=30>
+##contig=<ID=APC_chr5:112838205-112838273,length=28>
+##contig=<ID=FBXW7_chr4:152328203-152328271,length=30>
+##contig=<ID=APC_chr5:112840194-112840263,length=28>
+##contig=<ID=TCF7L2_chr10:113165547-113165614,length=32>
+##contig=<ID=PIK3CA_chr3:179203725-179203792,length=31>
+##contig=<ID=TERT_chr5:1295094-1295163,length=25>
+##contig=<ID=KRAS_chr12:25225623-25225688,length=28>
+##contig=<ID=MET_chr7:116771936-116772001,length=28>
+##contig=<ID=EGFR_chr7:55173966-55174033,length=27>
+##contig=<ID=ERBB2_chr17:39724710-39724777,length=29>
+##contig=<ID=APC_chr5:112815487-112815554,length=28>
+##contig=<ID=BRAF_chr7:140781591-140781659,length=29>
+##contig=<ID=PTEN_chr10:87933124-87933193,length=28>
+##contig=<ID=B2M_chr15:44711547-44711616,length=27>
+##contig=<ID=PTEN_chr10:87961033-87961101,length=28>
+##contig=<ID=APC_chr5:112780826-112780895,length=28>
+##contig=<ID=FBXW7_chr4:152326091-152326160,length=30>
+##contig=<ID=MSH3_chr5:80675083-80675123,length=27>
+##contig=<ID=PTEN_chr10:87957951-87958020,length=28>
+##contig=<ID=STK11_chr19:1221279-1221347,length=27>
+##contig=<ID=GATA3_chr10:8073908-8073977,length=27>
+##contig=<ID=GATA3_chr10:8069470-8069538,length=27>
+##contig=<ID=APC_chr5:112838878-112838946,length=28>
+##contig=<ID=MSH6_chr2:47803484-47803553,length=27>
+##contig=<ID=PIK3R1_chr5:68295257-68295326,length=29>
+##contig=<ID=VHL_chr3:10142068-10142133,length=26>
+##contig=<ID=NRAS_chr1:114716074-114716140,length=29>
+##contig=<ID=PIK3CA_chr3:179210129-179210197,length=31>
+##contig=<ID=NFE2L2_chr2:177234189-177234256,length=31>
+##contig=<ID=APC_chr5:112838389-112838457,length=28>
+##contig=<ID=ASXL1_chr20:32434579-32434647,length=29>
+##contig=<ID=HNF1A_chr12:120994282-120994351,length=31>
+##contig=<ID=FBXW7_chr4:152324294-152324363,length=30>
+##contig=<ID=STK11_chr19:1220439-1220508,length=27>
+##contig=<ID=PTEN_chr10:87952108-87952176,length=28>
+##contig=<ID=PTEN_chr10:87864484-87864553,length=28>
+##contig=<ID=SOX9_chr17:72123608-72123677,length=28>
+##contig=<ID=ERBB2_chr17:39723957-39724019,length=29>
+##contig=<ID=STK11_chr19:1220577-1220645,length=27>
+##contig=<ID=FLCN_chr17:17216380-17216447,length=28>
+##contig=<ID=PIK3CA_chr3:179210251-179210318,length=31>
+##contig=<ID=FBXW7_chr4:152326212-152326240,length=30>
+##contig=<ID=APC_chr5:112827183-112827249,length=28>
+##ALT=<ID=*,Description="Represents allele(s) other than observed.">
+##INFO=<ID=INDEL,Number=0,Type=Flag,Description="Indicates that the variant is an INDEL.">
+##INFO=<ID=IDV,Number=1,Type=Integer,Description="Maximum number of raw reads supporting an indel">
+##INFO=<ID=IMF,Number=1,Type=Float,Description="Maximum fraction of raw reads supporting an indel">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Raw read depth">
+##INFO=<ID=VDB,Number=1,Type=Float,Description="Variant Distance Bias for filtering splice-site artefacts in RNA-seq data (bigger is better)",Version="3">
+##INFO=<ID=RPBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Read Position Bias (closer to 0 is better)">
+##INFO=<ID=MQBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Mapping Quality Bias (closer to 0 is better)">
+##INFO=<ID=BQBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Base Quality Bias (closer to 0 is better)">
+##INFO=<ID=MQSBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Mapping Quality vs Strand Bias (closer to 0 is better)">
+##INFO=<ID=SCBZ,Number=1,Type=Float,Description="Mann-Whitney U-z test of Soft-Clip Length Bias (closer to 0 is better)">
+##INFO=<ID=SGB,Number=1,Type=Float,Description="Segregation based metric, http://samtools.github.io/bcftools/rd-SegBias.pdf">
+##INFO=<ID=MQ0F,Number=1,Type=Float,Description="Fraction of MQ0 reads (smaller is better)">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="List of Phred-scaled genotype likelihoods">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Allele count in genotypes for each ALT allele, in the same order as listed">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Number of high-quality ref-forward , ref-reverse, alt-forward and alt-reverse bases">
+##INFO=<ID=MQ,Number=1,Type=Integer,Description="Average mapping quality">
+##bcftools_callVersion=1.19+htslib-1.19
+##bcftools_callCommand=call -mv -Ov -o varients.vcf finaltumor.mpileup; Date=Sun Jan 19 13:28:06 2025
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	outputumor.bam
